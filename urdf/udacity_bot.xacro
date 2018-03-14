@@ -26,7 +26,7 @@
     </inertial>
 
     <collision name='collision'>
-      <origin xyz="0 0 0" rpy=" 0 0 0"/> 
+      <origin xyz="0 0 0" rpy=" 0 0 0"/>
       <geometry>
         <box size=".4 .2 .1"/>
       </geometry>
@@ -95,7 +95,7 @@
   </link>
 
   <!-- Left Wheel Link -->
-  
+
   <link name="left_wheel">
 
     <inertial>
