@@ -1,5 +1,7 @@
-map_type: costmap
+# For the list of parameters common to both types of costmaps the laser sensor is the source for observations.
 
+
+map_type: costmap
 obstacle_range: 5.0
 raytrace_range: 8.0
 transform_tolerance: 0.2
