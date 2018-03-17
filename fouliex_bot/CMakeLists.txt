@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(udacity_bot)
+project(fouliex_bot)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -210,3 +210,4 @@ target_link_libraries(navigation_goal ${catkin_LIBRARIES})
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+

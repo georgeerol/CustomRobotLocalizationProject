@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 
-<robot name="udacity_bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
-<xacro:include filename="$(find udacity_bot)/urdf/udacity_bot.gazebo" />
+<robot name="fouliex_bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<xacro:include filename="$(find fouliex_bot)/urdf/fouliex_bot.gazebo" />
   <link name="robot_footprint"></link>
 
   <joint name="robot_footprint_joint" type="fixed">
@@ -225,7 +225,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://udacity_bot/meshes/hokuyo.dae"/>
+        <mesh filename="package://fouliex_bot/meshes/hokuyo.dae"/>
       </geometry>
       <origin xyz="0 0 0" rpy="0 0 0"/>
     </visual>
