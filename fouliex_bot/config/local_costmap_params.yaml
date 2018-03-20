@@ -15,13 +15,13 @@ local_costmap:
 # The costmap performs map update cycles at the rate specified by the update_frequency parameter.
 # Each cycle, sensor data comes in, marking and clearing operations are performed in the underlying occupancy structure
 # of the costmap, and this structure is projected into the costmap where the appropriate cost values are assigned.
-   update_frequency: 10.0
-   publish_frequency: 10.0
+   update_frequency: 3.0
+   publish_frequency: 3.0
 
 # Map management parameters
 # The width, height of the map in  meters and resolution of the map in meters/cell
-   width: 20.0
-   height: 20.0
+   width: 15.0
+   height: 15.0
    resolution: 0.05
    static_map: false
    rolling_window: true
