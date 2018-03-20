@@ -10,8 +10,8 @@ global_costmap:
 # In order to insert data from sensor sources into the costmap,the costmap_2d::Costmap2DROS object makes extensive use
 # of tf. It assumes that all transforms between the coordinate frames specified by the global_frame parameter, the
 # robot_base_frame
-   update_frequency: 10.0
-   publish_frequency: 10.0
+   update_frequency: 3.0
+   publish_frequency: 5.0
 
 # Map types
 # The costmap is initialized to match the width, height, and obstacle information provided by the static map.
@@ -25,4 +25,4 @@ global_costmap:
 # The width, height of the map in  meters and resolution of the map in meters/cell
    width: 40.0
    height: 40.0
-   resolution: 0.02
+   resolution: 0.05
